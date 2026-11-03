@@ -1,0 +1,35 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+assets/
+data/
+private/
+checkpoints/
+submission/
+publication-review/
+downloads/
+recordings/
+tmp/
+temp/
+*.log
+*.zip
+*.npz
+*.pt
+*.mp4
+*.avi
+*.mov
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*token*
+*WhatsApp*
+release_artifacts/*
+!release_artifacts/MANIFEST.json
+# Personal files are unapproved. After consent, use explicit git add -f for exact reviewed files.
+
+# Harmless synthetic fixture required by test_phase1.py
+!reports/leap_demo.mp4

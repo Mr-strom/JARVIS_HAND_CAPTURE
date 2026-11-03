@@ -1,0 +1,5 @@
+*.log
+__pycache__/
+private/
+*_frames.csv
+*.zip

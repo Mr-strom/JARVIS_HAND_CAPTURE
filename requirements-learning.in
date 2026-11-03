@@ -1,0 +1,3 @@
+# Additive to the preserved Phase 2 lockfile. CPU wheels only.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu

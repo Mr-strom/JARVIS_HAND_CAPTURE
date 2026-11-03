@@ -1,0 +1,151 @@
+{
+  "fast_threshold_palm_widths_s": 3.2879353598064744,
+  "threshold_source": "validation75th percentile",
+  "minimum": "20 frames and2 recordings; geometry heuristics, not manual gesture labels; categories can overlap",
+  "results": [
+    {
+      "category": "open_close",
+      "method": "rom",
+      "frames": 198,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 54.98697991664709,
+      "physical_fingertip_mm": 76.99870964769563
+    },
+    {
+      "category": "open_close",
+      "method": "neural",
+      "frames": 198,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 30.820489298068754,
+      "physical_fingertip_mm": 62.05559935490481
+    },
+    {
+      "category": "open_close",
+      "method": "optimizer",
+      "frames": 198,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 25.001862557897088,
+      "physical_fingertip_mm": 59.07583391707167
+    },
+    {
+      "category": "open_close",
+      "method": "hybrid",
+      "frames": 198,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 27.92448348746329,
+      "physical_fingertip_mm": 59.79516649817483
+    },
+    {
+      "category": "precision_pinch",
+      "method": "rom",
+      "frames": 24,
+      "recordings": 3,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 58.93566460921142,
+      "physical_fingertip_mm": 56.954570249899405
+    },
+    {
+      "category": "precision_pinch",
+      "method": "neural",
+      "frames": 24,
+      "recordings": 3,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 28.5655750779582,
+      "physical_fingertip_mm": 39.37774776923111
+    },
+    {
+      "category": "precision_pinch",
+      "method": "optimizer",
+      "frames": 24,
+      "recordings": 3,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 21.834588277125256,
+      "physical_fingertip_mm": 35.42840237802102
+    },
+    {
+      "category": "precision_pinch",
+      "method": "hybrid",
+      "frames": 24,
+      "recordings": 3,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 22.657155661362925,
+      "physical_fingertip_mm": 35.45646325589234
+    },
+    {
+      "category": "fast",
+      "method": "rom",
+      "frames": 315,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 63.67121849507225,
+      "physical_fingertip_mm": 76.99687183131289
+    },
+    {
+      "category": "fast",
+      "method": "neural",
+      "frames": 315,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 35.74511629954124,
+      "physical_fingertip_mm": 62.68751346533641
+    },
+    {
+      "category": "fast",
+      "method": "optimizer",
+      "frames": 315,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 24.37529409525142,
+      "physical_fingertip_mm": 59.374102365130206
+    },
+    {
+      "category": "fast",
+      "method": "hybrid",
+      "frames": 315,
+      "recordings": 5,
+      "enough_for_descriptive_comparison": true,
+      "raw_fingertip_mm": 32.24523602026468,
+      "physical_fingertip_mm": 60.968775398857915
+    },
+    {
+      "category": "individual_finger_proxy",
+      "method": "rom",
+      "frames": 12,
+      "recordings": 1,
+      "enough_for_descriptive_comparison": false,
+      "raw_fingertip_mm": 63.76739441808963,
+      "physical_fingertip_mm": 79.47995026374254
+    },
+    {
+      "category": "individual_finger_proxy",
+      "method": "neural",
+      "frames": 12,
+      "recordings": 1,
+      "enough_for_descriptive_comparison": false,
+      "raw_fingertip_mm": 34.60909138230834,
+      "physical_fingertip_mm": 50.961933586103704
+    },
+    {
+      "category": "individual_finger_proxy",
+      "method": "optimizer",
+      "frames": 12,
+      "recordings": 1,
+      "enough_for_descriptive_comparison": false,
+      "raw_fingertip_mm": 25.78571739567568,
+      "physical_fingertip_mm": 42.123345502771656
+    },
+    {
+      "category": "individual_finger_proxy",
+      "method": "hybrid",
+      "frames": 12,
+      "recordings": 1,
+      "enough_for_descriptive_comparison": false,
+      "raw_fingertip_mm": 29.355204790961505,
+      "physical_fingertip_mm": 43.15371759403347
+    }
+  ]
+}

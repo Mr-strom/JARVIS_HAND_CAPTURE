@@ -1,0 +1,41 @@
+{
+  "publication_status": "REQUIRES OWNER APPROVAL; local testing is not publication permission",
+  "artifacts": [
+    {
+      "release_path": "release_artifacts/personal_hand_sample.mp4",
+      "runtime_path": "private/final/personal_hand_sample.mp4",
+      "sha256": "91ab3a0370095a71aece3f32969f264276ce0356c4565ec2980e1ff59d843e21",
+      "bytes": 344988,
+      "publication_approved": false,
+      "privacy_and_rights_risk": "Personal hand appearance/motion, residual room fragments; no audio. Demo contains upstream robot appearance/branding with attribution.",
+      "reuse_license": "not selected or applied"
+    },
+    {
+      "release_path": "release_artifacts/personal_hand_landmarks.json",
+      "runtime_path": "private/final/personal_hand_landmarks.json",
+      "sha256": "7773d5b8d0323701c66f1da9ce1e01393a62ee71432462471bdbe0cde0b1041f",
+      "bytes": 382664,
+      "publication_approved": false,
+      "privacy_and_rights_risk": "Derived personal hand geometry, relative timing and source hashes; can be linked to matching originals. Not anonymous.",
+      "reuse_license": "not selected or applied"
+    },
+    {
+      "release_path": "release_artifacts/personal_mlp.pt",
+      "runtime_path": "private/learning/personal_mlp.pt",
+      "sha256": "0d3bc1de399c0511a0065337de1662521ef55889290e7e5861324329ba69e6b7",
+      "bytes": 120186,
+      "publication_approved": false,
+      "privacy_and_rights_risk": "Personalized model and training distribution information; owner rights/reuse terms not yet granted; upstream software notices remain separate.",
+      "reuse_license": "not selected or applied"
+    },
+    {
+      "release_path": "release_artifacts/calibration.json",
+      "runtime_path": "private/calibration.json",
+      "sha256": "981745d982d9ecae736cb1f264ab7742c0e9bad9cb34e9687a91ab9399180b7a",
+      "bytes": 1347,
+      "publication_approved": false,
+      "privacy_and_rights_risk": "Personal joint range and calibration statistics; needed for exact ROM baseline; no direct name/location.",
+      "reuse_license": "not selected or applied"
+    }
+  ]
+}

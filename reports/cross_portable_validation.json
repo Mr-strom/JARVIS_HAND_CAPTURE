@@ -1,0 +1,10 @@
+{
+  "same_machine_portable_landmark_replay": true,
+  "max_non_timing_summary_difference": 0,
+  "fields": 42,
+  "timing_ms": {
+    "direct_rom": 0.6419117484554443,
+    "geometry_rom_leap": 7.653968460414833,
+    "geometry_neural_leap": 7.8200065200396125
+  }
+}

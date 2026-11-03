@@ -1,0 +1,316 @@
+{
+  "results": [
+    {
+      "actuator": "left_shoulder_pitch_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.25020106361659916,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "left_shoulder_roll_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.25400758539783513,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "left_shoulder_yaw_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.257000797166339,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "left_elbow_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2519452648169944,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "left_wrist_roll_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24863746363216435,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "right_shoulder_pitch_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2500795083147133,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "right_shoulder_roll_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.060659671100275224,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "right_shoulder_yaw_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.25268830135284415,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "right_elbow_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2520369865187731,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "right_wrist_roll_joint",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24862649048165464,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_WRJ2",
+      "target_delta": 0.174533,
+      "measured_length_delta_rad_or_tendon_rad": 0.1745756146991238,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_WRJ1",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24720912598611144,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_THJ5",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.22595466479826143,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_THJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24627313049622532,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_THJ3",
+      "target_delta": 0.20944,
+      "measured_length_delta_rad_or_tendon_rad": 0.19474251484230654,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_THJ2",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2496109627500345,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_THJ1",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2476580000608927,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_FFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.1325403124149242,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_FFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24577739330727297,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_FFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24234820258448872,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_MFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.1455492361008501,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_MFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24600708913192992,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_MFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24237020715780397,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_RFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.1332676440136187,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_RFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2462267096881087,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_RFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2423900914051248,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_LFJ5",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24313480758128775,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_LFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.1279375433285122,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_LFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24519593836611986,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "lh_A_LFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24231097622892495,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_WRJ2",
+      "target_delta": 0.174533,
+      "measured_length_delta_rad_or_tendon_rad": 0.17456324979400217,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_WRJ1",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.247205726179355,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_THJ5",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.22595451189035712,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_THJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24627046327075292,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_THJ3",
+      "target_delta": 0.20944,
+      "measured_length_delta_rad_or_tendon_rad": 0.19474174164935626,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_THJ2",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24961074907526942,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_THJ1",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24765797505930817,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_FFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.1325012770603153,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_FFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2457870852869191,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_FFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24234889741979634,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_MFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.1457245868856476,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_MFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24600591965785268,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_MFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24236980210570794,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_RFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.13329198066149817,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_RFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24622060485234123,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_RFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2423892075548652,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_LFJ5",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24313508128372874,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_LFJ4",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.12838534119213704,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_LFJ3",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.24504985777490085,
+      "measured_response_over_5mrad": true
+    },
+    {
+      "actuator": "rh_A_LFJ0",
+      "target_delta": 0.25,
+      "measured_length_delta_rad_or_tendon_rad": 0.2422963676810532,
+      "measured_response_over_5mrad": true
+    }
+  ],
+  "count": 50,
+  "responses_over_5mrad": 50,
+  "warnings": {
+    "mjWARN_INERTIA": 0,
+    "mjWARN_CONTACTFULL": 0,
+    "mjWARN_CNSTRFULL": 0,
+    "mjWARN_BADQPOS": 0,
+    "mjWARN_BADQVEL": 0,
+    "mjWARN_BADQACC": 0,
+    "mjWARN_BADCTRL": 0
+  },
+  "scope": "individual physical response, not a precision tracking or isolated-motion guarantee"
+}

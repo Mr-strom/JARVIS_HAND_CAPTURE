@@ -1,0 +1,24 @@
+{
+  "single": {
+    "attempts": 5,
+    "valid_grasps": 0,
+    "integrity_aborts": 4,
+    "valid_table_stabilizations": 1,
+    "max_lift_m": 0.005738409606943051,
+    "max_joint_excursion_rad": 0.005266827922898893,
+    "max_penetration_m_including_aborted_attempts": 0.010130168732805145,
+    "mean_control_step_ms": 0.8276732943864431,
+    "mean_real_time_factor": 2.2636742832715178
+  },
+  "assisted": {
+    "attempts": 5,
+    "valid_grasps": 0,
+    "integrity_aborts": 3,
+    "valid_table_stabilizations": 2,
+    "max_lift_m": 0.005739685288823626,
+    "max_joint_excursion_rad": 0.005266827922898893,
+    "max_penetration_m_including_aborted_attempts": 0.008965398498589133,
+    "mean_control_step_ms": 0.8723390299444338,
+    "mean_real_time_factor": 1.9871206964867654
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "max_nfev": 4,
+    "budget_ms": 8,
+    "frames": 80,
+    "tip_mm": 23.364915498894366,
+    "pinch_mm": 10.4389660192233,
+    "solver_ms_p50": 3.91650000028676,
+    "solver_ms_p95": 6.468520000407807,
+    "timeouts": 0
+  },
+  {
+    "max_nfev": 6,
+    "budget_ms": 8,
+    "frames": 80,
+    "tip_mm": 22.709143568903933,
+    "pinch_mm": 10.045391012682668,
+    "solver_ms_p50": 6.033749999915017,
+    "solver_ms_p95": 7.729305000157182,
+    "timeouts": 4
+  },
+  {
+    "max_nfev": 8,
+    "budget_ms": 8,
+    "frames": 80,
+    "tip_mm": 24.607775022101652,
+    "pinch_mm": 11.347972185161083,
+    "solver_ms_p50": 7.493600000088918,
+    "solver_ms_p95": 8.549794999635196,
+    "timeouts": 25
+  }
+]

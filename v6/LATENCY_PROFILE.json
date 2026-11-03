@@ -1,0 +1,366 @@
+{
+  "scope": "Offline mapping79 precomputed features -> decision (includes quality/MLP/target/solve as used); control filtering and physics separately measured. Online read-completion -> render excludes exposure/buffering/scanout/settling.",
+  "offline_pooled_mapping": {
+    "rom": {
+      "observed_mapping_mean_ms": 0.26254571121536846,
+      "observed_mapping_p50_ms": 0.2576000006229151,
+      "observed_mapping_p95_ms": 0.3645999995569582,
+      "samples": 921
+    },
+    "neural": {
+      "observed_mapping_mean_ms": 0.45959066231476403,
+      "observed_mapping_p50_ms": 0.45260000024427427,
+      "observed_mapping_p95_ms": 0.6250999995245365,
+      "samples": 921
+    },
+    "optimizer": {
+      "observed_mapping_mean_ms": 3.4744622149904716,
+      "observed_mapping_p50_ms": 3.476300000329502,
+      "observed_mapping_p95_ms": 4.8882000000958215,
+      "samples": 921
+    },
+    "hybrid": {
+      "observed_mapping_mean_ms": 1.8060729641876208,
+      "observed_mapping_p50_ms": 0.7387000005110167,
+      "observed_mapping_p95_ms": 3.9407999993272824,
+      "samples": 921
+    }
+  },
+  "offline_full_controller_scope": "Per-observation mapping and per-control-tick safety are different frequencies; not added as a fabricated p95. Detailed costs in experiment CSV and online worker timings.",
+  "capture_only": {
+    "runs": [
+      {
+        "settings": {
+          "backend": "DSHOW",
+          "width": 640.0,
+          "height": 480.0,
+          "reported_fps": 30.00003000003,
+          "exposure": -6.0,
+          "auto_exposure": -1.0,
+          "requested_mjpg": false,
+          "requested_exposure": null
+        },
+        "unique_frames": 237,
+        "unique_fps": 29.92113207972441,
+        "return_fps": 29.56619358012681,
+        "duplicate_returns": 0,
+        "mean_read_ms": 32.977008016899966,
+        "p95_read_ms": 46.964780000416795,
+        "error": null
+      },
+      {
+        "settings": {
+          "backend": "DSHOW",
+          "width": 320.0,
+          "height": 240.0,
+          "reported_fps": 30.00003000003,
+          "exposure": -6.0,
+          "auto_exposure": -1.0,
+          "requested_mjpg": false,
+          "requested_exposure": null
+        },
+        "unique_frames": 118,
+        "unique_fps": 14.955240690219595,
+        "return_fps": 14.742508778445714,
+        "duplicate_returns": 0,
+        "mean_read_ms": 67.75290084749292,
+        "p95_read_ms": 79.87512000017887,
+        "error": null
+      },
+      {
+        "requested": [
+          1400,
+          640,
+          480,
+          false,
+          null
+        ],
+        "error": "Camera startup timeout"
+      },
+      {
+        "settings": {
+          "backend": "DSHOW",
+          "width": 640.0,
+          "height": 480.0,
+          "reported_fps": 30.00003000003,
+          "exposure": -6.0,
+          "auto_exposure": -1.0,
+          "requested_mjpg": true,
+          "requested_exposure": null
+        },
+        "unique_frames": 118,
+        "unique_fps": 14.958228380159515,
+        "return_fps": 14.739224153220803,
+        "duplicate_returns": 0,
+        "mean_read_ms": 67.11503305082954,
+        "p95_read_ms": 79.46363000005476,
+        "error": null
+      }
+    ],
+    "scope": "exact full-frame hash uniqueness; capture-read-completion timestamps, not exposure timestamps; no recording saved; no inference/render",
+    "lighting": "not controlled or measured; sequential same-session tests"
+  },
+  "original_online": {
+    "elapsed_seconds": 16.01838130000033,
+    "camera_backend": "DSHOW",
+    "webcam_frames": 472,
+    "webcam_fps": 29.739676864077204,
+    "processed_frames": 394,
+    "detected_frames": 0,
+    "detection_ratio": 0.0,
+    "mediapipe_processing_ms": {
+      "mean": 19.447684010192738,
+      "p50": 18.859150000025693,
+      "p95": 23.235015000136627
+    },
+    "robot_update_fps": 25.158597017539577,
+    "display_fps": 25.158597017539577,
+    "physics_steps": 7918,
+    "physics_steps_per_wall_second": 494.30712452823417,
+    "simulation_seconds": 15.836,
+    "dropped_catchup_seconds": 0.1630968000003122,
+    "capture_read_complete_to_render_ms": {
+      "mean": 51.06937918783607,
+      "p50": 50.953349999872444,
+      "p95": 66.3978150001185
+    },
+    "control_limit_violations": 0,
+    "joint_limit_violation_steps_tolerance_1e_4_rad": 0,
+    "max_joint_limit_excursion_rad": 0.0,
+    "simulation_warnings": {
+      "mjWARN_INERTIA": 0,
+      "mjWARN_CONTACTFULL": 0,
+      "mjWARN_CNSTRFULL": 0,
+      "mjWARN_BADQPOS": 0,
+      "mjWARN_BADQVEL": 0,
+      "mjWARN_BADQACC": 0,
+      "mjWARN_BADCTRL": 0
+    },
+    "max_contacts": 0,
+    "max_penetration_m": 0.0,
+    "state_counts": {
+      "NEUTRAL": 403
+    },
+    "tracking_loss_transitions": 0,
+    "last_detected_label": "none",
+    "hand_selection": "right",
+    "personalized_channels": 0,
+    "calibration_samples": 0,
+    "stale_frames_rejected": 0,
+    "source": "live webcam -> personal trained MLP; no synthetic targets",
+    "cpu_inference": true,
+    "error": null,
+    "joint_names": [
+      "if_mcp",
+      "if_rot",
+      "if_pip",
+      "if_dip",
+      "mf_mcp",
+      "mf_rot",
+      "mf_pip",
+      "mf_dip",
+      "rf_mcp",
+      "rf_rot",
+      "rf_pip",
+      "rf_dip",
+      "th_cmc",
+      "th_axl",
+      "th_mcp",
+      "th_ipl"
+    ],
+    "model_physics": "unchanged pinned Menagerie LEAP",
+    "motion_response_lag": {
+      "available": false,
+      "reason": "insufficient tracked samples"
+    },
+    "latency_limitations": "Software pipeline starts when OpenCV read completes. Exposure, camera buffering, scanout and display latency are unmeasured. Filter and actuator lag are estimated separately from real tracked motion.",
+    "tracked_joint_motion_range_rad": null,
+    "tracked_raw_target_range_rad": null,
+    "instrumentation": {
+      "read_ms": {
+        "mean": 33.1027101479934,
+        "p50": 31.080300000212446,
+        "p95": 47.07263999989664
+      },
+      "render_ms": {
+        "mean": 9.497994540918448,
+        "p50": 9.373799999593757,
+        "p95": 11.170779999520164
+      },
+      "controller_ms": {
+        "mean": 0.12862803969278333,
+        "p50": 0.1171000003523659,
+        "p95": 0.18412999997963195
+      },
+      "physics_step_ms": {
+        "mean": 0.20143210406816792,
+        "p50": 0.17065000020011212,
+        "p95": 0.3664299997126363
+      },
+      "consume_frame_age_ms": {
+        "mean": 15.9340878172461,
+        "p50": 16.169799999715906,
+        "p95": 30.649635000281698
+      },
+      "hash_ms": {
+        "mean": 0.9790735729329292,
+        "p50": 0.9514000003036927,
+        "p95": 1.3941400002295263
+      }
+    },
+    "unique_camera_frames": 473,
+    "unique_camera_fps": 29.713052802456502,
+    "scope": "Original neural_live.py code/targeting unchanged; runtime wrappers time capture, render, control, physics and consumption. Hash instrumentation adds measured CPU cost. No camera imagery saved."
+  },
+  "worker_online": {
+    "error": null,
+    "elapsed_seconds": 16.01767050000035,
+    "unique_camera_frames": 479,
+    "unique_camera_fps": 29.846658173024228,
+    "camera_settings": {
+      "backend": "DSHOW",
+      "width": 640.0,
+      "height": 480.0,
+      "reported_fps": 30.00003000003,
+      "exposure": -6.0,
+      "auto_exposure": -1.0,
+      "requested_mjpg": false,
+      "requested_exposure": null
+    },
+    "robot_display_fps": 29.592318058983025,
+    "unique_processed_frames": 477,
+    "unique_detected_frame_fps": 0.0,
+    "unique_accepted_frame_fps": 0.0,
+    "skipped_latest_buffer_frames": 0,
+    "stale_display_results_rejected": 0,
+    "controller": "hybrid",
+    "mode_display_counts": {
+      "RECOVERY": 474
+    },
+    "worker_modes": {
+      "RECOVERY": 477
+    },
+    "timings": {
+      "control_filter_ms": {
+        "mean": 0.9824339662476563,
+        "p50": 1.0115999998561165,
+        "p95": 1.4121049999175737
+      },
+      "render_ms": {
+        "mean": 10.532804852316348,
+        "p50": 10.277449999648525,
+        "p95": 12.890030000335171
+      },
+      "physics_step_ms": {
+        "mean": 0.26333958202649527,
+        "p50": 0.24890000076993601,
+        "p95": 0.5041999997956736
+      },
+      "frame_copy_ms": {
+        "mean": 0.15682928571247126,
+        "p50": 0.13170000011086813,
+        "p95": 0.2904400002535107
+      },
+      "displayed_frame_age_ms": {
+        "mean": 62.65546518049715,
+        "p50": 61.749000000418164,
+        "p95": 84.41490000041085
+      },
+      "first_render_pipeline_ms": {
+        "mean": 60.12003357145442,
+        "p50": 60.33815000046161,
+        "p95": 76.87735000008615
+      }
+    },
+    "worker_timings": {
+      "capture_to_processing_ms": {
+        "mean": 6.760419706502482,
+        "p50": 6.081800000174553,
+        "p95": 15.196999999898251
+      },
+      "mediapipe_ms": {
+        "mean": 22.355550733723238,
+        "p50": 22.036600000319595,
+        "p95": 26.303679999909946
+      },
+      "retarget_world_ms": {
+        "mean": 0.012137735842698326,
+        "p50": 0.01049999991664663,
+        "p95": 0.01982000048883492
+      },
+      "capture_to_decision_ms": {
+        "mean": 29.391498532490733,
+        "p50": 28.510600000117847,
+        "p95": 38.39722000047914
+      }
+    },
+    "sim_seconds": 15.982000000002007,
+    "dropped_catchup_seconds": 0.0,
+    "max_raw_joint_excursion_rad": 0.0,
+    "joint_limit_samples_over_1e_4": 0,
+    "warnings": {
+      "mjWARN_INERTIA": 0,
+      "mjWARN_CONTACTFULL": 0,
+      "mjWARN_CNSTRFULL": 0,
+      "mjWARN_BADQPOS": 0,
+      "mjWARN_BADQVEL": 0,
+      "mjWARN_BADQACC": 0,
+      "mjWARN_BADCTRL": 0
+    },
+    "latency_scope": "read completion -> first/displayed robot render; camera exposure/buffering/display scanout/filter settling excluded. Unique frames counted once, no interpolation.",
+    "tracking_quality": "geometry/continuity proxies, not landmark confidence"
+  },
+  "attended_hand_verification": false,
+  "online_limitation": "Both actual camera checks detected zero hands. They measure unattended capture/detection/render throughput only; no live retargeting performance or latency improvement established.",
+  "historical_camera_comparison": "Current exact-hash capture was about30fps versus earlier7-10fps, without our exposure changes. Lighting/driver/session were not controlled across dates; not attributed to v6.",
+  "full_controller_measured_profile": {
+    "scope": "Actual paired wall timer from already extracted world21x3 through feature extraction, quality, neural/geometry selection and safety.update. No MediaPipe/camera/render/physics. Warmed10 calls per recording/method;921 original valid observations. Safety evaluated once per observation for CPU timing only, not used for accuracy/physics metrics.",
+    "results": {
+      "rom": {
+        "world_to_safe_command_mean_ms": 2.5967439739393585,
+        "world_to_safe_command_p50_ms": 2.784399999654852,
+        "world_to_safe_command_p95_ms": 3.0642000001535052,
+        "samples": 921,
+        "solver_attempts": 0,
+        "solver_timeouts": 0,
+        "neural_forward_mean_ms": 0.0
+      },
+      "neural": {
+        "world_to_safe_command_mean_ms": 2.731499131402142,
+        "world_to_safe_command_p50_ms": 2.814800000123796,
+        "world_to_safe_command_p95_ms": 3.197300000465475,
+        "samples": 921,
+        "solver_attempts": 0,
+        "solver_timeouts": 0,
+        "neural_forward_mean_ms": 0.17959884526324324
+      },
+      "optimizer": {
+        "world_to_safe_command_mean_ms": 5.6140483170333795,
+        "world_to_safe_command_p50_ms": 5.6614999994053505,
+        "world_to_safe_command_p95_ms": 6.435199999941688,
+        "samples": 921,
+        "solver_attempts": 866,
+        "solver_timeouts": 0,
+        "neural_forward_mean_ms": 0.1992479214994503
+      },
+      "hybrid": {
+        "world_to_safe_command_mean_ms": 4.120109771982867,
+        "world_to_safe_command_p50_ms": 3.3946000003197696,
+        "world_to_safe_command_p95_ms": 6.263400000534602,
+        "samples": 921,
+        "solver_attempts": 368,
+        "solver_timeouts": 0,
+        "neural_forward_mean_ms": 0.1888264434453677
+      },
+      "neural_v5": {
+        "world_to_safe_command_mean_ms": 1.6143263843800613,
+        "world_to_safe_command_p50_ms": 1.8628000007083756,
+        "world_to_safe_command_p95_ms": 2.0592999999280437,
+        "samples": 921,
+        "solver_attempts": 0,
+        "solver_timeouts": 0,
+        "neural_forward_mean_ms": null
+      }
+    }
+  }
+}

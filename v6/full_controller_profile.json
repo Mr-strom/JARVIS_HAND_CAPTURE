@@ -1,0 +1,50 @@
+{
+  "scope": "Actual paired wall timer from already extracted world21x3 through feature extraction, quality, neural/geometry selection and safety.update. No MediaPipe/camera/render/physics. Warmed10 calls per recording/method;921 original valid observations. Safety evaluated once per observation for CPU timing only, not used for accuracy/physics metrics.",
+  "results": {
+    "rom": {
+      "world_to_safe_command_mean_ms": 2.5967439739393585,
+      "world_to_safe_command_p50_ms": 2.784399999654852,
+      "world_to_safe_command_p95_ms": 3.0642000001535052,
+      "samples": 921,
+      "solver_attempts": 0,
+      "solver_timeouts": 0,
+      "neural_forward_mean_ms": 0.0
+    },
+    "neural": {
+      "world_to_safe_command_mean_ms": 2.731499131402142,
+      "world_to_safe_command_p50_ms": 2.814800000123796,
+      "world_to_safe_command_p95_ms": 3.197300000465475,
+      "samples": 921,
+      "solver_attempts": 0,
+      "solver_timeouts": 0,
+      "neural_forward_mean_ms": 0.17959884526324324
+    },
+    "optimizer": {
+      "world_to_safe_command_mean_ms": 5.6140483170333795,
+      "world_to_safe_command_p50_ms": 5.6614999994053505,
+      "world_to_safe_command_p95_ms": 6.435199999941688,
+      "samples": 921,
+      "solver_attempts": 866,
+      "solver_timeouts": 0,
+      "neural_forward_mean_ms": 0.1992479214994503
+    },
+    "hybrid": {
+      "world_to_safe_command_mean_ms": 4.120109771982867,
+      "world_to_safe_command_p50_ms": 3.3946000003197696,
+      "world_to_safe_command_p95_ms": 6.263400000534602,
+      "samples": 921,
+      "solver_attempts": 368,
+      "solver_timeouts": 0,
+      "neural_forward_mean_ms": 0.1888264434453677
+    },
+    "neural_v5": {
+      "world_to_safe_command_mean_ms": 1.6143263843800613,
+      "world_to_safe_command_p50_ms": 1.8628000007083756,
+      "world_to_safe_command_p95_ms": 2.0592999999280437,
+      "samples": 921,
+      "solver_attempts": 0,
+      "solver_timeouts": 0,
+      "neural_forward_mean_ms": null
+    }
+  }
+}

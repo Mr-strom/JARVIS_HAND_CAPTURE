@@ -1,0 +1,22 @@
+[
+  {
+    "initialization": "baseline",
+    "tip_mm": 29.975455143212827,
+    "pinch_mm": 13.554932721342198,
+    "latency_p50_ms": 3.966599999785103,
+    "latency_p95_ms": 6.95181500009312,
+    "timeouts": 0,
+    "samples": 80,
+    "evaluations": 4
+  },
+  {
+    "initialization": "neural",
+    "tip_mm": 23.36353395528393,
+    "pinch_mm": 10.459188093222185,
+    "latency_p50_ms": 4.131500000312371,
+    "latency_p95_ms": 6.351585000584237,
+    "timeouts": 1,
+    "samples": 80,
+    "evaluations": 4
+  }
+]

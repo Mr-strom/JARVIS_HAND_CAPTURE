@@ -1,0 +1,8 @@
+{
+  "public_extracted_archive_tests": "23 passed, 2 skipped in 15.23s",
+  "skips": "private checkpoint/calibration omitted from public archive",
+  "environment": "existing venv; verified model assets copied locally, no fresh dependency install",
+  "private_bundle_restore_returncode": 0,
+  "private_restore_result": "Private checkpoint/calibration/portable data restored: all three pathways stepped without warnings",
+  "published": false
+}

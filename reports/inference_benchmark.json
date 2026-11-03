@@ -1,0 +1,10 @@
+{
+  "baseline_ms": 5.987649800001236,
+  "neural_full_adapter_ms": 6.193843300003209,
+  "optimizer_100_iterations_single_frame_ms": [
+    4168.35269999865,
+    1507.4450000029174,
+    1529.3197999999393
+  ],
+  "scope": "CPU, warmed baseline/neural; optimizer includes Adam construction; no camera/FK dynamics"
+}

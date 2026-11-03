@@ -1,0 +1,11 @@
+{
+  "camera_only_change": true,
+  "physics_metrics_unchanged": {
+    "success": true,
+    "max_lift_m": true,
+    "max_valid_hold_s": true,
+    "max_penetration_m": true,
+    "max_joint_limit_excursion_rad": true,
+    "mean_joint_tracking_rmse_rad": true
+  }
+}

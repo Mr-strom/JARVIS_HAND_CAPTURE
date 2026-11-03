@@ -1,0 +1,1878 @@
+{
+  "scene.xml": {
+    "nq": 73,
+    "nv": 73,
+    "nu": 65,
+    "gravity": [
+      0.0,
+      0.0,
+      -0.3
+    ],
+    "dt": 0.002,
+    "free_joints": [],
+    "actuators": [
+      {
+        "id": 0,
+        "name": "left_hip_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1,
+        "name": "left_hip_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "left_hip_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 3,
+        "name": "left_knee_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 4,
+        "name": "left_ankle_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 5,
+        "name": "left_ankle_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 6,
+        "name": "right_hip_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 7,
+        "name": "right_hip_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 8,
+        "name": "right_hip_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 9,
+        "name": "right_knee_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 10,
+        "name": "right_ankle_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 11,
+        "name": "right_ankle_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 12,
+        "name": "waist_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 13,
+        "name": "waist_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 14,
+        "name": "waist_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 15,
+        "name": "left_shoulder_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 16,
+        "name": "left_shoulder_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 17,
+        "name": "left_shoulder_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 18,
+        "name": "left_elbow_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 19,
+        "name": "left_wrist_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 20,
+        "name": "right_shoulder_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 21,
+        "name": "right_shoulder_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 22,
+        "name": "right_shoulder_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 23,
+        "name": "right_elbow_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 24,
+        "name": "right_wrist_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 25,
+        "name": "lh_A_WRJ2",
+        "transmission": 0,
+        "range": [
+          -0.523599,
+          0.174533
+        ],
+        "gain": 10.0,
+        "force": [
+          -10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 26,
+        "name": "lh_A_WRJ1",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.488692
+        ],
+        "gain": 8.0,
+        "force": [
+          -5.0,
+          5.0
+        ]
+      },
+      {
+        "id": 27,
+        "name": "lh_A_THJ5",
+        "transmission": 0,
+        "range": [
+          -1.0472,
+          1.0472
+        ],
+        "gain": 0.4,
+        "force": [
+          -3.0,
+          3.0
+        ]
+      },
+      {
+        "id": 28,
+        "name": "lh_A_THJ4",
+        "transmission": 0,
+        "range": [
+          0.0,
+          1.22173
+        ],
+        "gain": 1.0,
+        "force": [
+          -2.0,
+          2.0
+        ]
+      },
+      {
+        "id": 29,
+        "name": "lh_A_THJ3",
+        "transmission": 0,
+        "range": [
+          -0.20944,
+          0.20944
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 30,
+        "name": "lh_A_THJ2",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.698132
+        ],
+        "gain": 1.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 31,
+        "name": "lh_A_THJ1",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 32,
+        "name": "lh_A_FFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 33,
+        "name": "lh_A_FFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 34,
+        "name": "lh_A_FFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 35,
+        "name": "lh_A_MFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 36,
+        "name": "lh_A_MFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 37,
+        "name": "lh_A_MFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 38,
+        "name": "lh_A_RFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 39,
+        "name": "lh_A_RFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 40,
+        "name": "lh_A_RFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 41,
+        "name": "lh_A_LFJ5",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.785398
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 42,
+        "name": "lh_A_LFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 43,
+        "name": "lh_A_LFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 44,
+        "name": "lh_A_LFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 45,
+        "name": "rh_A_WRJ2",
+        "transmission": 0,
+        "range": [
+          -0.523599,
+          0.174533
+        ],
+        "gain": 10.0,
+        "force": [
+          -10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 46,
+        "name": "rh_A_WRJ1",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.488692
+        ],
+        "gain": 8.0,
+        "force": [
+          -5.0,
+          5.0
+        ]
+      },
+      {
+        "id": 47,
+        "name": "rh_A_THJ5",
+        "transmission": 0,
+        "range": [
+          -1.0472,
+          1.0472
+        ],
+        "gain": 0.4,
+        "force": [
+          -3.0,
+          3.0
+        ]
+      },
+      {
+        "id": 48,
+        "name": "rh_A_THJ4",
+        "transmission": 0,
+        "range": [
+          0.0,
+          1.22173
+        ],
+        "gain": 1.0,
+        "force": [
+          -2.0,
+          2.0
+        ]
+      },
+      {
+        "id": 49,
+        "name": "rh_A_THJ3",
+        "transmission": 0,
+        "range": [
+          -0.20944,
+          0.20944
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 50,
+        "name": "rh_A_THJ2",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.698132
+        ],
+        "gain": 1.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 51,
+        "name": "rh_A_THJ1",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 52,
+        "name": "rh_A_FFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 53,
+        "name": "rh_A_FFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 54,
+        "name": "rh_A_FFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 55,
+        "name": "rh_A_MFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 56,
+        "name": "rh_A_MFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 57,
+        "name": "rh_A_MFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 58,
+        "name": "rh_A_RFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 59,
+        "name": "rh_A_RFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 60,
+        "name": "rh_A_RFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 61,
+        "name": "rh_A_LFJ5",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.785398
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 62,
+        "name": "rh_A_LFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 63,
+        "name": "rh_A_LFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 64,
+        "name": "rh_A_LFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      }
+    ],
+    "load_seconds": 0.5314920000018901,
+    "time_after_1000_steps": 2.0000000000000013,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_velocity": 0.1748139189552495,
+    "contacts": 0,
+    "max_penetration": 0.0
+  },
+  "shadow_g1.xml": {
+    "nq": 73,
+    "nv": 73,
+    "nu": 65,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "dt": 0.002,
+    "free_joints": [],
+    "actuators": [
+      {
+        "id": 0,
+        "name": "left_hip_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1,
+        "name": "left_hip_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "left_hip_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 3,
+        "name": "left_knee_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 4,
+        "name": "left_ankle_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 5,
+        "name": "left_ankle_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 6,
+        "name": "right_hip_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 7,
+        "name": "right_hip_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 8,
+        "name": "right_hip_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 9,
+        "name": "right_knee_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 10,
+        "name": "right_ankle_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 11,
+        "name": "right_ankle_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 12,
+        "name": "waist_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 13,
+        "name": "waist_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 14,
+        "name": "waist_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 15,
+        "name": "left_shoulder_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 16,
+        "name": "left_shoulder_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 17,
+        "name": "left_shoulder_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 18,
+        "name": "left_elbow_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 19,
+        "name": "left_wrist_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 20,
+        "name": "right_shoulder_pitch_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 21,
+        "name": "right_shoulder_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 22,
+        "name": "right_shoulder_yaw_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 23,
+        "name": "right_elbow_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 24,
+        "name": "right_wrist_roll_joint",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "gain": 1.0,
+        "force": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 25,
+        "name": "lh_A_WRJ2",
+        "transmission": 0,
+        "range": [
+          -0.523599,
+          0.174533
+        ],
+        "gain": 10.0,
+        "force": [
+          -10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 26,
+        "name": "lh_A_WRJ1",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.488692
+        ],
+        "gain": 8.0,
+        "force": [
+          -5.0,
+          5.0
+        ]
+      },
+      {
+        "id": 27,
+        "name": "lh_A_THJ5",
+        "transmission": 0,
+        "range": [
+          -1.0472,
+          1.0472
+        ],
+        "gain": 0.4,
+        "force": [
+          -3.0,
+          3.0
+        ]
+      },
+      {
+        "id": 28,
+        "name": "lh_A_THJ4",
+        "transmission": 0,
+        "range": [
+          0.0,
+          1.22173
+        ],
+        "gain": 1.0,
+        "force": [
+          -2.0,
+          2.0
+        ]
+      },
+      {
+        "id": 29,
+        "name": "lh_A_THJ3",
+        "transmission": 0,
+        "range": [
+          -0.20944,
+          0.20944
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 30,
+        "name": "lh_A_THJ2",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.698132
+        ],
+        "gain": 1.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 31,
+        "name": "lh_A_THJ1",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 32,
+        "name": "lh_A_FFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 33,
+        "name": "lh_A_FFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 34,
+        "name": "lh_A_FFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 35,
+        "name": "lh_A_MFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 36,
+        "name": "lh_A_MFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 37,
+        "name": "lh_A_MFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 38,
+        "name": "lh_A_RFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 39,
+        "name": "lh_A_RFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 40,
+        "name": "lh_A_RFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 41,
+        "name": "lh_A_LFJ5",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.785398
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 42,
+        "name": "lh_A_LFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 43,
+        "name": "lh_A_LFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 44,
+        "name": "lh_A_LFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 45,
+        "name": "rh_A_WRJ2",
+        "transmission": 0,
+        "range": [
+          -0.523599,
+          0.174533
+        ],
+        "gain": 10.0,
+        "force": [
+          -10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 46,
+        "name": "rh_A_WRJ1",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.488692
+        ],
+        "gain": 8.0,
+        "force": [
+          -5.0,
+          5.0
+        ]
+      },
+      {
+        "id": 47,
+        "name": "rh_A_THJ5",
+        "transmission": 0,
+        "range": [
+          -1.0472,
+          1.0472
+        ],
+        "gain": 0.4,
+        "force": [
+          -3.0,
+          3.0
+        ]
+      },
+      {
+        "id": 48,
+        "name": "rh_A_THJ4",
+        "transmission": 0,
+        "range": [
+          0.0,
+          1.22173
+        ],
+        "gain": 1.0,
+        "force": [
+          -2.0,
+          2.0
+        ]
+      },
+      {
+        "id": 49,
+        "name": "rh_A_THJ3",
+        "transmission": 0,
+        "range": [
+          -0.20944,
+          0.20944
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 50,
+        "name": "rh_A_THJ2",
+        "transmission": 0,
+        "range": [
+          -0.698132,
+          0.698132
+        ],
+        "gain": 1.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 51,
+        "name": "rh_A_THJ1",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 52,
+        "name": "rh_A_FFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 53,
+        "name": "rh_A_FFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 54,
+        "name": "rh_A_FFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 55,
+        "name": "rh_A_MFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 56,
+        "name": "rh_A_MFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 57,
+        "name": "rh_A_MFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 58,
+        "name": "rh_A_RFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 59,
+        "name": "rh_A_RFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 60,
+        "name": "rh_A_RFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 61,
+        "name": "rh_A_LFJ5",
+        "transmission": 0,
+        "range": [
+          0.0,
+          0.785398
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 62,
+        "name": "rh_A_LFJ4",
+        "transmission": 0,
+        "range": [
+          -0.349066,
+          0.349066
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 63,
+        "name": "rh_A_LFJ3",
+        "transmission": 0,
+        "range": [
+          -0.261799,
+          1.5708
+        ],
+        "gain": 1.0,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "id": 64,
+        "name": "rh_A_LFJ0",
+        "transmission": 3,
+        "range": [
+          0.0,
+          3.1415
+        ],
+        "gain": 0.5,
+        "force": [
+          -1.0,
+          1.0
+        ]
+      }
+    ],
+    "load_seconds": 0.12212379999982659,
+    "time_after_1000_steps": 2.0000000000000013,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_velocity": 0.1356536971966892,
+    "contacts": 0,
+    "max_penetration": 0.0
+  }
+}

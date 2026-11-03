@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "held_out_fingertip_error_mm": 61.32026672363281,
+    "held_out_pinch_error_mm": 41.117305755615234,
+    "joint_limit_violations": 0,
+    "mean_joint_vector_speed_rad_s": 9.282241946653494,
+    "mean_joint_acceleration_norm_rad_s2": 148.22648591702165
+  },
+  "optimizer": {
+    "held_out_fingertip_error_mm": 27.832122802734375,
+    "held_out_pinch_error_mm": 8.934059143066406,
+    "joint_limit_violations": 0,
+    "mean_joint_vector_speed_rad_s": 10.963096313780918,
+    "mean_joint_acceleration_norm_rad_s2": 182.11374982800908
+  },
+  "neural": {
+    "held_out_fingertip_error_mm": 32.962711334228516,
+    "held_out_pinch_error_mm": 16.67989730834961,
+    "joint_limit_violations": 0,
+    "mean_joint_vector_speed_rad_s": 8.814786463436445,
+    "inference_ms_single_cpu": 0.08470169999782229,
+    "mean_joint_acceleration_norm_rad_s2": 141.24506428887477
+  },
+  "training": {
+    "frames": 3672,
+    "train": 2280,
+    "validation": 471,
+    "test": 921,
+    "epochs": 113,
+    "best_validation_loss": 0.039864905178546906,
+    "parameters": 28816,
+    "seed": 42,
+    "objective_warning": "errors use proportion-adjusted human geometry targets, not measured robot ground truth",
+    "selection": "held-out recordings never used for scaler, gradients or early stopping",
+    "training_loss_at_best_validation": 0.013663880691370544,
+    "best_epoch": 77
+  }
+}

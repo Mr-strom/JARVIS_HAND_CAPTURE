@@ -1,0 +1,15 @@
+{
+  "configuration_count": 1,
+  "trials": 5,
+  "successful_2_second_holds": 0,
+  "max_lift_m": 0.02037998173734265,
+  "max_valid_hold_s": 0.0,
+  "max_penetration_m": 0.0017997978240689419,
+  "max_joint_limit_excursion_rad": 0.0,
+  "numerical_warnings": 0,
+  "integrity_aborts": 0,
+  "mean_tracking_rmse_rad": 0.012106162436712836,
+  "mean_opposing_contact_fraction": 0.006714285714285714,
+  "peak_digit_contact_force_N_including_seed_impact": 234.19082765162128,
+  "interpretation": "0 successful holds; lower command-tracking error is not grasp success. Old median max error and new mean RMSE are different statistics, not a matched improvement claim."
+}

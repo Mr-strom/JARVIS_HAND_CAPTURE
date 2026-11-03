@@ -1,0 +1,163 @@
+{
+  "summary": {
+    "0.045": {
+      "physical_tip_mm": 65.51018147751067,
+      "command_acceleration_norm": 53.75514859833966
+    },
+    "0.025": {
+      "physical_tip_mm": 65.27991891117377,
+      "command_acceleration_norm": 60.686051040862694
+    },
+    "0.015": {
+      "physical_tip_mm": 65.2826522964035,
+      "command_acceleration_norm": 65.59304352650346
+    },
+    "v5": {
+      "physical_tip_mm": 63.52452898374624,
+      "command_acceleration_norm": 66.09844451746055
+    }
+  },
+  "per_clip": [
+    {
+      "clip": 7,
+      "filter": "0.045",
+      "physical_tip_mm": 65.27355105966946,
+      "command_acceleration_norm": 57.06675686711042,
+      "warnings": 0
+    },
+    {
+      "clip": 7,
+      "filter": "0.025",
+      "physical_tip_mm": 64.79669134480127,
+      "command_acceleration_norm": 64.98356538682471,
+      "warnings": 0
+    },
+    {
+      "clip": 7,
+      "filter": "0.015",
+      "physical_tip_mm": 64.75450848520182,
+      "command_acceleration_norm": 71.37403904874134,
+      "warnings": 0
+    },
+    {
+      "clip": 7,
+      "filter": "v5",
+      "physical_tip_mm": 61.03722704616237,
+      "command_acceleration_norm": 69.65081992257092,
+      "warnings": 0
+    },
+    {
+      "clip": 18,
+      "filter": "0.045",
+      "physical_tip_mm": 43.21759834453899,
+      "command_acceleration_norm": 57.87433687990634,
+      "warnings": 0
+    },
+    {
+      "clip": 18,
+      "filter": "0.025",
+      "physical_tip_mm": 43.80036267798497,
+      "command_acceleration_norm": 65.55339692508541,
+      "warnings": 0
+    },
+    {
+      "clip": 18,
+      "filter": "0.015",
+      "physical_tip_mm": 44.26002835006735,
+      "command_acceleration_norm": 71.67492210282268,
+      "warnings": 0
+    },
+    {
+      "clip": 18,
+      "filter": "v5",
+      "physical_tip_mm": 40.43032784618231,
+      "command_acceleration_norm": 74.15115541624644,
+      "warnings": 0
+    },
+    {
+      "clip": 19,
+      "filter": "0.045",
+      "physical_tip_mm": 74.77988279110454,
+      "command_acceleration_norm": 57.187248968656554,
+      "warnings": 0
+    },
+    {
+      "clip": 19,
+      "filter": "0.025",
+      "physical_tip_mm": 73.67388287314739,
+      "command_acceleration_norm": 62.35607809670551,
+      "warnings": 0
+    },
+    {
+      "clip": 19,
+      "filter": "0.015",
+      "physical_tip_mm": 73.35538448417661,
+      "command_acceleration_norm": 65.70590384617917,
+      "warnings": 0
+    },
+    {
+      "clip": 19,
+      "filter": "v5",
+      "physical_tip_mm": 74.79504580347086,
+      "command_acceleration_norm": 61.33689545158403,
+      "warnings": 0
+    },
+    {
+      "clip": 20,
+      "filter": "0.045",
+      "physical_tip_mm": 96.77869680761697,
+      "command_acceleration_norm": 39.60213961486643,
+      "warnings": 0
+    },
+    {
+      "clip": 20,
+      "filter": "0.025",
+      "physical_tip_mm": 95.97795626569692,
+      "command_acceleration_norm": 46.71148850823357,
+      "warnings": 0
+    },
+    {
+      "clip": 20,
+      "filter": "0.015",
+      "physical_tip_mm": 95.69023697145819,
+      "command_acceleration_norm": 50.51972465003394,
+      "warnings": 0
+    },
+    {
+      "clip": 20,
+      "filter": "v5",
+      "physical_tip_mm": 96.39869455098436,
+      "command_acceleration_norm": 51.42114779248935,
+      "warnings": 0
+    },
+    {
+      "clip": 28,
+      "filter": "0.045",
+      "physical_tip_mm": 47.50117838462339,
+      "command_acceleration_norm": 57.04526066115854,
+      "warnings": 0
+    },
+    {
+      "clip": 28,
+      "filter": "0.025",
+      "physical_tip_mm": 48.150701394238226,
+      "command_acceleration_norm": 63.82572628746427,
+      "warnings": 0
+    },
+    {
+      "clip": 28,
+      "filter": "0.015",
+      "physical_tip_mm": 48.35310319111354,
+      "command_acceleration_norm": 68.69062798474016,
+      "warnings": 0
+    },
+    {
+      "clip": 28,
+      "filter": "v5",
+      "physical_tip_mm": 44.961349671931266,
+      "command_acceleration_norm": 73.93220400441201,
+      "warnings": 0
+    }
+  ],
+  "selection": "validation only, same neural requests and quality mask; no optimization; physical/control stepping unchanged"
+}

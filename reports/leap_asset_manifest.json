@@ -1,0 +1,137 @@
+{
+  "revision": "c1a4eeb85694ae1dffe33ff1797d4e528928a133",
+  "files": [
+    {
+      "path": "leap_hand/CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/CHANGELOG.md",
+      "sha256": "da7f76c22a5207b7017129cdd94b44ec0c502fbd3448879ad07ee0b1e6ed6a39",
+      "bytes": 259
+    },
+    {
+      "path": "leap_hand/LICENSE",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/LICENSE",
+      "sha256": "5a91c3d709c2ee3a71f166b46e3208cebd83c0c7a870746c729b31a01f156984",
+      "bytes": 1062
+    },
+    {
+      "path": "leap_hand/README.md",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/README.md",
+      "sha256": "ca21a2f308c24a66aff628441359dc405af069add20c604ce4341f9281b5d99a",
+      "bytes": 3788
+    },
+    {
+      "path": "leap_hand/assets/base.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/base.obj",
+      "sha256": "3d7194a6a33626ffcdfce78a0ca854e67b6b49f2e09a3bd62656f94515fdfbec",
+      "bytes": 1065471
+    },
+    {
+      "path": "leap_hand/assets/distal.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/distal.obj",
+      "sha256": "6bfa2afb2a06557ce0c54b03baec13522bfe561aabb576bd4701d4704f93ec0f",
+      "bytes": 359831
+    },
+    {
+      "path": "leap_hand/assets/leap_mount.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/leap_mount.obj",
+      "sha256": "30c4cc7e63c922b34b19027d2112d3ce1dd16d92484c99ceaa4b2c5f96e8c3de",
+      "bytes": 59723
+    },
+    {
+      "path": "leap_hand/assets/medial.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/medial.obj",
+      "sha256": "472e054348c5a0e987829e721d5ba8486ddd47d867e416bb45d8d2a2ff917acf",
+      "bytes": 1013886
+    },
+    {
+      "path": "leap_hand/assets/palm_left.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/palm_left.obj",
+      "sha256": "5369c7bb802fb7effb58ff24d64da77b8630330c800cf490d96b631e93fed1e9",
+      "bytes": 4514064
+    },
+    {
+      "path": "leap_hand/assets/palm_right.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/palm_right.obj",
+      "sha256": "839b2e58e69ce57e0feaa2f565f8124101a2ed81d99fb2c5d00372b245634ab8",
+      "bytes": 2978191
+    },
+    {
+      "path": "leap_hand/assets/pip_left.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/pip_left.obj",
+      "sha256": "8a9206845849784efef43486e2dafaad142f32a53c0d0fdde0381d178ec6acb4",
+      "bytes": 1115403
+    },
+    {
+      "path": "leap_hand/assets/proximal.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/proximal.obj",
+      "sha256": "3fff19dc1f0100bb5f34eaf8a40fcf3db40f96fd7179bb7336e538b21ff8e067",
+      "bytes": 673869
+    },
+    {
+      "path": "leap_hand/assets/thumb_base.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/thumb_base.obj",
+      "sha256": "d28876cc3b674323aa7d8a628a4240cda2757c61263b05e86a66280035a2689d",
+      "bytes": 294575
+    },
+    {
+      "path": "leap_hand/assets/thumb_distal.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/thumb_distal.obj",
+      "sha256": "4695d72a70285e8a0132ed4de49876cf99c813182e3a24b172b53631224890de",
+      "bytes": 734609
+    },
+    {
+      "path": "leap_hand/assets/thumb_mp_left.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/thumb_mp_left.obj",
+      "sha256": "8a9206845849784efef43486e2dafaad142f32a53c0d0fdde0381d178ec6acb4",
+      "bytes": 1115403
+    },
+    {
+      "path": "leap_hand/assets/thumb_proximal.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/thumb_proximal.obj",
+      "sha256": "5b402876601f2b0b36631e6a54ad20588f88e74f52320b6c902a8bc694578689",
+      "bytes": 968312
+    },
+    {
+      "path": "leap_hand/assets/thumb_tip.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/thumb_tip.obj",
+      "sha256": "7987f2599efaa73a6d7ccf0dd26d9f9e06949c7c66c268c9f8989aac345822e0",
+      "bytes": 2919
+    },
+    {
+      "path": "leap_hand/assets/tip.obj",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/assets/tip.obj",
+      "sha256": "eb2f5157e29ace1e45c4bf2bd0cacb03cc276458b1c4a21c217e73d0bc4e95c7",
+      "bytes": 4060
+    },
+    {
+      "path": "leap_hand/left_hand.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/left_hand.xml",
+      "sha256": "aed631597451a7fe4e81f26887ddb07634dc9500c896f19308e1a531cdf31488",
+      "bytes": 22195
+    },
+    {
+      "path": "leap_hand/right_hand.png",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/right_hand.png",
+      "sha256": "62a4a5b6b7919ecf45f21562a695c120673e0169ae5d55e872585905c1b7ba29",
+      "bytes": 646863
+    },
+    {
+      "path": "leap_hand/right_hand.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/right_hand.xml",
+      "sha256": "9d8f25c38bdb60617f378c07b7e71f97306471353c81bf281eb9943f3f2340d8",
+      "bytes": 22118
+    },
+    {
+      "path": "leap_hand/scene_left.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/scene_left.xml",
+      "sha256": "2108f237852073a5a76cf8ede77c282d7ad16885da98b0f9d9b58988c1f136b2",
+      "bytes": 829
+    },
+    {
+      "path": "leap_hand/scene_right.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/c1a4eeb85694ae1dffe33ff1797d4e528928a133/leap_hand/scene_right.xml",
+      "sha256": "1081fba90e532543a2f69910d65c4ddb0e0b0eedec8673cf28764bfa1b17592a",
+      "bytes": 831
+    }
+  ]
+}

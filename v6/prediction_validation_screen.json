@@ -1,0 +1,12 @@
+{
+  "partition": "validation",
+  "samples": 461,
+  "mean_horizon_s": 0.0964239575801398,
+  "next_observed_frame_error_palm_widths": {
+    "last": 0.5475007609155854,
+    "constant_velocity": 0.6192686017606298,
+    "lowpass_tau_06": 0.5198386484752514
+  },
+  "constant_velocity_overshoot_palm_widths": 0.011799314338295536,
+  "scope": "canonical landmark one-step prediction at actual future cached observations; lowpass uses same .06s time constant on landmarks, not the literal robot controller. No physical latency claim."
+}

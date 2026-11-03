@@ -1,0 +1,59 @@
+[
+  {
+    "backend": 700,
+    "requested_resolution": [
+      640,
+      480
+    ],
+    "actual_shape": [
+      480,
+      640,
+      3
+    ],
+    "frames": 59,
+    "elapsed_seconds": 8.118614599996363,
+    "fps": 7.267249759586621,
+    "mean_read_ms": 136.70170169471174,
+    "p95_read_ms": 143.64135999858263,
+    "distinct_frame_hashes": 59,
+    "scope": "capture only, no inference/render; no exposure settings changed"
+  },
+  {
+    "backend": 700,
+    "requested_resolution": [
+      320,
+      240
+    ],
+    "actual_shape": [
+      240,
+      320,
+      3
+    ],
+    "frames": 59,
+    "elapsed_seconds": 8.116652099997737,
+    "fps": 7.26900688524231,
+    "mean_read_ms": 137.36545932168434,
+    "p95_read_ms": 143.83763999503572,
+    "distinct_frame_hashes": 59,
+    "scope": "capture only, no inference/render; no exposure settings changed"
+  },
+  {
+    "backend": 1400,
+    "requested_resolution": [
+      640,
+      480
+    ],
+    "actual_shape": [
+      480,
+      640,
+      3
+    ],
+    "frames": 215,
+    "elapsed_seconds": 8.08127969999623,
+    "fps": 26.604697273391032,
+    "mean_read_ms": 36.70872325581217,
+    "p95_read_ms": 106.40380999830083,
+    "distinct_frame_hashes": 58,
+    "scope": "capture only, no inference/render; no exposure settings changed"
+  }
+]

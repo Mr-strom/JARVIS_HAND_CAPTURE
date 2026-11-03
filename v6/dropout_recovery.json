@@ -1,0 +1,464 @@
+[
+  {
+    "recording_id": 5,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.5825444444444443,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.7809888888888894,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.7795000000000023,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "neural",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.5825444444444443,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "neural",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.7809888888888894,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "neural",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.7795000000000023,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "hybrid",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.5825444444444443,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "hybrid",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.7809888888888894,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 5,
+    "method": "hybrid",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.6795444444444456,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.3826222222222224,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.4811000000000005,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.679566666666668,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "neural",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.48258888888888896,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "neural",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.5810666666666666,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "neural",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.679566666666668,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "hybrid",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.5825555555555559,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "hybrid",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.5810666666666666,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 24,
+    "method": "hybrid",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.679566666666668,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.48248888888888875,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.48101111111111106,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.7794111111111128,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "neural",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 2.281822222222222,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "neural",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.48101111111111106,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "neural",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.6794666666666682,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "hybrid",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 1.782,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "hybrid",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 2.180366666666667,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 29,
+    "method": "hybrid",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.6794666666666682,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.582588888888889,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.4811444444444444,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.5796555555555578,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 14.45,
+    "recovery_delay_s": 0.47821111111111314,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 18.45,
+    "recovery_delay_s": 0.5766444444444438,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 22.45,
+    "recovery_delay_s": 0.47521111111111125,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 26.45,
+    "recovery_delay_s": 0.9735333333333358,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 30.45,
+    "recovery_delay_s": 0.6721666666666692,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 34.45,
+    "recovery_delay_s": 0.37078888888888883,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 38.45,
+    "recovery_delay_s": 0.4692666666666625,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 42.45,
+    "recovery_delay_s": 1.0675666666666643,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 46.45,
+    "recovery_delay_s": 0.6662222222222169,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural_v5_filter",
+    "dropout_end_s": 50.45,
+    "recovery_delay_s": 0.5647666666666638,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.6825666666666668,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 1.480777777777778,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.8795111111111122,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 14.45,
+    "recovery_delay_s": 0.7780666666666693,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 18.45,
+    "recovery_delay_s": 0.6766111111111108,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 22.45,
+    "recovery_delay_s": 0.47521111111111125,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 26.45,
+    "recovery_delay_s": 1.273422222222223,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 30.45,
+    "recovery_delay_s": 2.3715333333333355,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 34.45,
+    "recovery_delay_s": 0.6706666666666621,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 38.45,
+    "recovery_delay_s": 0.5692222222222227,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 42.45,
+    "recovery_delay_s": 1.0675666666666643,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 46.45,
+    "recovery_delay_s": 0.7661888888888839,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "neural",
+    "dropout_end_s": 50.45,
+    "recovery_delay_s": 0.6647333333333307,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 2.45,
+    "recovery_delay_s": 0.48263333333333325,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 6.45,
+    "recovery_delay_s": 0.8810000000000002,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 10.45,
+    "recovery_delay_s": 0.8795111111111122,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 14.45,
+    "recovery_delay_s": 0.7780666666666693,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 18.45,
+    "recovery_delay_s": 0.6766111111111108,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 22.45,
+    "recovery_delay_s": 0.5751777777777782,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 26.45,
+    "recovery_delay_s": 1.273422222222223,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 30.45,
+    "recovery_delay_s": 0.7721222222222224,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 34.45,
+    "recovery_delay_s": 0.6706666666666621,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 38.45,
+    "recovery_delay_s": 0.4692666666666625,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 42.45,
+    "recovery_delay_s": 1.3674333333333308,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 46.45,
+    "recovery_delay_s": 0.7661888888888839,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  },
+  {
+    "recording_id": 33,
+    "method": "hybrid",
+    "dropout_end_s": 50.45,
+    "recovery_delay_s": 0.5647666666666638,
+    "criterion": "within.1rad maximum of clean command for2 cached observations; censored if not achieved before next gap/clip end"
+  }
+]
