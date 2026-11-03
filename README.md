@@ -2,7 +2,7 @@
 
 A CPU-compatible robotics system using personally recorded human hand movements to train a neural retargeter, drive a simulated LEAP Hand, and investigate transfer to a full fixed-base G1 humanoid with two Shadow Hands.
 
-**Main demo:** a90-second MP4 is prepared locally. Upload and a verified public Drive URL await approval; no hosted link is claimed. [Video guide](docs/DEMONSTRATION.md).
+**Main demo:** a90-second MP4 is prepared locally. The owner will upload the approved video manually; a verified public Drive URL is pending. [Video guide](docs/DEMONSTRATION.md).
 
 ![Actual fixed-base G1 simulation](docs/media/g1_preview.jpg)
 

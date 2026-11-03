@@ -17,6 +17,6 @@ def main():
             if hashlib.sha256(destination.read_bytes()).hexdigest()!=entry['sha256']:raise FileExistsError(f'Refusing to replace existing {entry["runtime_path"]}')
         else:
             destination.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,destination)
-    print(f'Restored/verified {len(manifest["artifacts"])} frozen artifacts locally; publication status remains pending approval.')
+    print(f'Restored/verified {len(manifest["artifacts"])} approved sample artifacts locally; personal-data reuse terms are separate.')
 
 if __name__=='__main__':main()
