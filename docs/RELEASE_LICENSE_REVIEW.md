@@ -1,12 +1,12 @@
-# Release licensing review — recommendation only
+# Release licensing and attribution review
 
-No original-code license has been applied. No publication is authorized by this document.
+The published repository includes the root MIT License for original JARVIS-Hand code, copyright 2026 Mr-strom. Personal artifacts were separately approved for public inclusion in this repository. Public access does not, by itself, grant a blanket downstream reuse license for personal videos, derived landmarks, calibration, or the trained checkpoint.
 
-## Recommended decision
+## Original project license
 
-Recommend **MIT for original JARVIS-Hand source code**, after the owner confirms the copyright holder name. It is concise and permits reuse while retaining the copyright and permission notice. See the [OSI MIT text](https://opensource.org/license/mit). This recommendation does not relicense third-party code, robot assets, personal videos, calibration, landmarks or trained weights.
+The owner selected and applied **MIT for original JARVIS-Hand source code**. See the root [LICENSE](../LICENSE) and [OSI MIT text](https://opensource.org/license/mit). This does not relicense third-party code, robot assets, personal videos, calibration, landmarks or trained weights.
 
-The adapted `learning/leap_fk.py` already inherits upstream MIT terms; its Abhishek Kumar Gupta notice must remain even if our original code also receives MIT. If the owner prefers an explicit contributor patent grant, Apache-2.0 is an alternative; it introduces additional license/notice obligations. See the [official Apache-2.0 text](https://www.apache.org/licenses/LICENSE-2.0). Do not add either root LICENSE until approved. No dataset/media/checkpoint license is selected by this audit. Public release permission and permission for downstream reuse are separate decisions.
+The adapted `learning/leap_fk.py` also inherits upstream MIT terms; its Abhishek Kumar Gupta notice remains in `licenses/handrobot-MIT.txt`. The root MIT does not alter upstream obligations. No blanket dataset/media/checkpoint reuse license is selected here. Public inclusion permission and permission for downstream reuse are separate decisions.
 
 ## Reused code and robot assets
 

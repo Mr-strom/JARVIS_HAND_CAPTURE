@@ -1,7 +1,35 @@
-# Demonstration and manual Drive upload
+# Demonstration
 
-Final edit:90seconds,1280x720,30FPS,H.264/yuv420p MP4, silent.8s introduction;7s tightly masked personal RGB;54s existing neural/ROM/G1/Shadow/v6 outputs;8s side-by-side warm-start FK and2s validation results;11s limitations/credits. Older camera panes retain only landmark overlays; robot outputs and source playback durations are retained. Some original segments were pose montages/nominal exports, so continuous real-time capture is not claimed. Warm-start evidence is a measured table. Grasp success is not claimed.
+## Public demonstration
 
-Recording checklist: steady camera/lighting; right hand fully visible; open/close, index bend, pinch, briefly leave/return. Run one camera app at a time. Use `python scripts/replay_approved_sample.py --viewer` for trained replay and `python humanoid_control.py --viewer --seconds 15` for full-body simulation. Original source footage remains private.
+[Watch JARVIS-Hand on Google Drive](https://drive.google.com/file/d/19wrV4-QulbFKnXYRngHCNEGr0R_2hMjI/view?usp=sharing).
 
-Upload only the exact approved final MP4 to the agreed Drive folder. Choose Share -> Anyone with the link -> Viewer only if authorized. Copy the actual link and test it in a signed-out/incognito browser. Supply it for README update and later approved push. No public Drive URL has been invented or created. The review folder and raw recordings must not be uploaded.
+The supplied link was opened in a signed-out browser session. The file preview loaded and playback started without an account sign-in, so it is accessible to a signed-out viewer at the time of this check. The video is named `Video Project 5.mp4`, 162.53 seconds, 1920×1080 at 30 FPS with AAC audio.
+
+The video shows the guided hand session, MediaPipe landmarks, the LEAP physics output, the ROM/neural comparison, Shadow/G1 material, v6 comparison, and result cards. Its initial guided-session footage includes the operator's face and room. This README's still screenshot is taken later from the same demonstration where the human pane is already masked to the hand against black; that crop does not anonymize the full video. The supplied full-video link is intentionally included per the owner's request.
+
+## Reproducing the principal demonstrations
+
+After installation and restoring the approved sample, run the trained LEAP replay:
+
+```powershell
+& '.\.venv\Scripts\python.exe' scripts\replay_approved_sample.py --viewer
+```
+
+Run the fixed-pelvis G1/Shadow actuator demonstration:
+
+```powershell
+& '.\.venv\Scripts\python.exe' humanoid_control.py --viewer --seconds 30
+```
+
+Run live neural LEAP control with the connected camera:
+
+```powershell
+& '.\.venv\Scripts\python.exe' neural_live.py --hand any --seconds 30
+```
+
+The sample replay and live mirroring are distinct: the first replays approved personal sample landmarks; the live command uses current camera input. Neither establishes a successful object grasp. The G1 demo is fixed-base with scripted arm targets and left-hand coordination.
+
+## Recording / privacy
+
+The public demonstration is owner-provided. Raw training videos are not part of the repository. The linked demo itself includes identifiable operator footage in some sections; anyone reusing or forwarding it should consider that privacy exposure. No further video upload occurred during this documentation update.
